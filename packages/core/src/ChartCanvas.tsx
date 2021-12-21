@@ -2,17 +2,17 @@ import { extent as d3Extent, max, min } from "d3-array";
 import { ScaleContinuousNumeric, ScaleTime } from "d3-scale";
 import * as PropTypes from "prop-types";
 import * as React from "react";
-import { clearCanvas, functor, head, identity, isDefined, isNotDefined, last, shallowEqual } from "./utils";
-import { mouseBasedZoomAnchor, IZoomAnchorOptions } from "./zoom/zoomBehavior";
+import { clearCanvas, functor, head, identity, isDefined, isNotDefined, last, shallowEqual } from "./utils/index.js";
+import { mouseBasedZoomAnchor, IZoomAnchorOptions } from "./zoom/zoomBehavior.js";
 import {
     getChartConfigWithUpdatedYScales,
     getCurrentCharts,
     getCurrentItem,
     getNewChartConfig,
-} from "./utils/ChartDataUtil";
-import { EventCapture } from "./EventCapture";
-import { CanvasContainer } from "./CanvasContainer";
-import evaluator from "./utils/evaluator";
+} from "./utils/ChartDataUtil.js";
+import { EventCapture } from "./EventCapture.js";
+import { CanvasContainer } from "./CanvasContainer.js";
+import evaluator from "./utils/evaluator.js";
 
 const CANDIDATES_FOR_RESET = ["seriesName"];
 

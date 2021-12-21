@@ -4,7 +4,7 @@ import {
     AlternatingFillAreaSeries,
     AlternatingFillAreaSeriesProps,
 } from "../../../../series/src/AlternatingFillAreaSeries";
-import { Daily, Intraday } from "./BasicBaselineSeries";
+import { Daily, Intraday } from "./BasicBaselineSeries.js";
 
 export default {
     component: AlternatingFillAreaSeries,

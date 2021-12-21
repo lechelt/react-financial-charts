@@ -13,8 +13,8 @@ import {
     TOUCHEND,
     TOUCHMOVE,
     touchPosition,
-} from "./utils";
-import { getCurrentCharts } from "./utils/ChartDataUtil";
+} from "./utils/index.js";
+import { getCurrentCharts } from "./utils/ChartDataUtil.js";
 
 interface EventCaptureProps {
     readonly mouseMove: boolean;

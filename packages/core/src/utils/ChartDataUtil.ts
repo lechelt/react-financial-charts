@@ -3,7 +3,7 @@ import { ScaleContinuousNumeric, ScaleTime } from "d3-scale";
 import flattenDeep from "lodash.flattendeep";
 import * as React from "react";
 
-import { Chart, ChartProps } from "../Chart";
+import { Chart, ChartProps } from "../Chart.js";
 
 import {
     functor,
@@ -15,7 +15,7 @@ import {
     mapObject,
     shallowEqual,
     zipper,
-} from "./index";
+} from "./index.js";
 
 export function getChartOrigin(origin: any, contextWidth: number, contextHeight: number) {
     const originCoordinates = typeof origin === "function" ? origin(contextWidth, contextHeight) : origin;

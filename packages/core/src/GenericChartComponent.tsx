@@ -1,7 +1,7 @@
 import * as PropTypes from "prop-types";
 
-import { GenericComponent } from "./GenericComponent";
-import { isDefined } from "./utils";
+import { GenericComponent } from "./GenericComponent.js";
+import { isDefined } from "./utils/index.js";
 
 const ALWAYS_TRUE_TYPES = ["drag", "dragend"];
 

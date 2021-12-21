@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import * as PropTypes from "prop-types";
 import * as React from "react";
-import { functor, identity } from "./utils";
-import { ICanvasContexts } from "./CanvasContainer";
+import { functor, identity } from "./utils/index.js";
+import { ICanvasContexts } from "./CanvasContainer.js";
 
 const aliases = {
     mouseleave: "mousemove", // to draw interactive after mouse exit

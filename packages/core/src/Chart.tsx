@@ -1,7 +1,7 @@
 import { scaleLinear, ScaleContinuousNumeric } from "d3-scale";
 import * as PropTypes from "prop-types";
 import * as React from "react";
-import { PureComponent } from "./utils";
+import { PureComponent } from "./utils/index.js";
 
 export interface ChartProps {
     readonly flipYScale?: boolean;
