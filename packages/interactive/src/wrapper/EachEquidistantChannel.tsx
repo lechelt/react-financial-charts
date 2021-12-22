@@ -1,6 +1,6 @@
 import * as React from "react";
 import { isDefined, noop } from "@react-financial-charts/core";
-import { getXValue } from "@react-financial-charts/core/lib/utils/ChartDataUtil";
+import { getXValue } from "@react-financial-charts/core/lib/utils/ChartDataUtil.js";
 import { isHover, saveNodeType } from "../utils.js";
 import { ChannelWithArea, ClickableCircle, HoverTextNearMouse } from "../components/index.js";
 

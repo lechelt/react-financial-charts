@@ -1,5 +1,5 @@
 import * as React from "react";
-import { getXValue } from "@react-financial-charts/core/lib/utils/ChartDataUtil";
+import { getXValue } from "@react-financial-charts/core/lib/utils/ChartDataUtil.js";
 import { isHover, saveNodeType } from "../utils.js";
 import { HoverTextNearMouse, InteractiveText } from "../components/index.js";
 
