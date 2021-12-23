@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SARSeries } from "../../../../series/src/SARSeries";
+import { SARSeries } from "../../../../series/src/SARSeries.js";
 import SARIndicator from "./SarIndicator.js";
 
 export default {

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { RSISeries } from "../../../../series/src/RSISeries";
+import { RSISeries } from "../../../../series/src/RSISeries.js";
 import RSIIndicator from "./RsiIndicator.js";
 
 export default {

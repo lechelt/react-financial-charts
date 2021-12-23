@@ -1,6 +1,6 @@
 import { Story } from "@storybook/react";
 import * as React from "react";
-import { BollingerSeries, BollingerSeriesProps } from "../../../../series/src/BollingerSeries";
+import { BollingerSeries, BollingerSeriesProps } from "../../../../series/src/BollingerSeries.js";
 import BollingerIndicator from "./BollingerIndicator.js";
 
 export default {

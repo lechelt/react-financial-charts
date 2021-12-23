@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ScatterSeries } from "../../../../series/src/ScatterSeries";
+import { ScatterSeries } from "../../../../series/src/ScatterSeries.js";
 import BasicScatterSeries from "./BasicScatterSeries.js";
 
 export default {

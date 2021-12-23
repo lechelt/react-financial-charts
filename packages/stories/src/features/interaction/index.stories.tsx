@@ -4,7 +4,7 @@ import {
     mouseBasedZoomAnchor,
     rightDomainBasedZoomAnchor,
 } from "@react-financial-charts/core";
-import { ChartCanvas } from "../../../../core/src/ChartCanvas";
+import { ChartCanvas } from "../../../../core/src/ChartCanvas.js";
 import Interaction from "./Interaction.js";
 
 export default {

@@ -1,6 +1,6 @@
 import { Story } from "@storybook/react";
 import * as React from "react";
-import { AreaSeries, AreaSeriesProps } from "../../../../series/src/AreaSeries";
+import { AreaSeries, AreaSeriesProps } from "../../../../series/src/AreaSeries.js";
 import { Daily, Intraday } from "./BasicAreaSeries.js";
 
 export default {

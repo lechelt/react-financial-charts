@@ -1,5 +1,5 @@
 import * as React from "react";
-import { KagiSeries } from "../../../../series/src/KagiSeries";
+import { KagiSeries } from "../../../../series/src/KagiSeries.js";
 import { Daily, Intraday } from "./BasicKagiSeries.js";
 
 export default {

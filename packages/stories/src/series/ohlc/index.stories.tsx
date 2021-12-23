@@ -1,5 +1,5 @@
 import * as React from "react";
-import { OHLCSeries } from "../../../../series/src/OHLCSeries";
+import { OHLCSeries } from "../../../../series/src/OHLCSeries.js";
 import { Daily, Intraday } from "./BasicOHLCSeries.js";
 
 export default {

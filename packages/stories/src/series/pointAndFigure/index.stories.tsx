@@ -1,5 +1,5 @@
 import * as React from "react";
-import { PointAndFigureSeries } from "../../../../series/src/PointAndFigureSeries";
+import { PointAndFigureSeries } from "../../../../series/src/PointAndFigureSeries.js";
 import { Daily } from "./BasicPointAndFigureSeries.js";
 
 export default {
