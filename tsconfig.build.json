@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

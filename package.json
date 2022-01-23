@@ -2,8 +2,10 @@
   "name": "@lechelt/react-financial-charts",
   "private": true,
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "webpack --config ./config/webpack.config.js --mode development"
+    "build": "tsc --build ./tsconfig.build.json && webpack --config ./config/webpack.config.js --mode development"
   },
   "devDependencies": {
     "@types/d3-array": "^3.0.2",
@@ -27,6 +29,7 @@
     "d3-scale": "^4.0.2",
     "d3-selection": "^3.0.0",
     "d3-shape": "^3.1.0",
+    "lodash": "^4.17.21",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
